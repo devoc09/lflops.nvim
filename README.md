@@ -2,6 +2,10 @@
     <h1>🍌 lflops.nvim 👺</h1>
 </div>
 
+<div align="center">
+    <img src="https://github.com/devoc09/lflops.nvim/assets/50615605/96e0f7eb-dc55-4149-8aa1-d343e59ce1ce" />
+</div>
+
 ## Install
 ### Using `lazy.nvim`
 ```lua
