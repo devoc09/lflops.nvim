@@ -7,7 +7,7 @@ NeoVim dark colorscheme inspired by the Japanese anime "恋愛フロップス (L
 
 ## Screenshot
 <div align="center">
-    <img src="https://github.com/devoc09/lflops.nvim/assets/50615605/96e0f7eb-dc55-4149-8aa1-d343e59ce1ce" />
+    <img src="https://github.com/devoc09/lflops.nvim/assets/50615605/d2f96be7-d419-4302-ad8a-74033cfb8172" />
 </div>
 
 
