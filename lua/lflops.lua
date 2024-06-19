@@ -259,7 +259,7 @@ local function get_groups()
     LFlopsPurpleUnderline = { undercurl = config.undercurl, sp = colors.purple },
     LFlopsAquaUnderline = { undercurl = config.undercurl, sp = colors.aqua },
     LFlopsOrangeUnderline = { undercurl = config.undercurl, sp = colors.orange },
-    Normal = config.transparent_mode and { fg = colors.fg1, bg = nil } or { fg = colors.fg1, bg = colors.bg0 },
+    Normal = config.transparent_mode and { fg = colors.orange, bg = nil } or { fg = colors.orange, bg = colors.bg0 },
     NormalFloat = config.transparent_mode and { fg = colors.fg1, bg = nil } or { fg = colors.fg1, bg = colors.bg1 },
     NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
     CursorLine = { bg = colors.bg1 },
