@@ -239,19 +239,19 @@ local function get_groups()
     LFlopsOrange = { fg = colors.orange },
     LFlopsOrangeBold = { fg = colors.orange, bold = config.bold },
     LFlopsRedSign = config.transparent_mode and { fg = colors.red, reverse = config.invert_signs }
-      or { fg = colors.red, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.red, bg = colors.bg1, reverse = config.invert_signs },
     LFlopsGreenSign = config.transparent_mode and { fg = colors.green, reverse = config.invert_signs }
-      or { fg = colors.green, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.green, bg = colors.bg1, reverse = config.invert_signs },
     LFlopsYellowSign = config.transparent_mode and { fg = colors.yellow, reverse = config.invert_signs }
-      or { fg = colors.yellow, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.yellow, bg = colors.bg1, reverse = config.invert_signs },
     LFlopsBlueSign = config.transparent_mode and { fg = colors.blue, reverse = config.invert_signs }
-      or { fg = colors.blue, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.blue, bg = colors.bg1, reverse = config.invert_signs },
     LFlopsPurpleSign = config.transparent_mode and { fg = colors.purple, reverse = config.invert_signs }
-      or { fg = colors.purple, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.purple, bg = colors.bg1, reverse = config.invert_signs },
     LFlopsAquaSign = config.transparent_mode and { fg = colors.aqua, reverse = config.invert_signs }
-      or { fg = colors.aqua, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.aqua, bg = colors.bg1, reverse = config.invert_signs },
     LFlopsOrangeSign = config.transparent_mode and { fg = colors.orange, reverse = config.invert_signs }
-      or { fg = colors.orange, bg = colors.bg1, reverse = config.invert_signs },
+        or { fg = colors.orange, bg = colors.bg1, reverse = config.invert_signs },
     LFlopsRedUnderline = { undercurl = config.undercurl, sp = colors.red },
     LFlopsGreenUnderline = { undercurl = config.undercurl, sp = colors.green },
     LFlopsYellowUnderline = { undercurl = config.undercurl, sp = colors.yellow },
@@ -262,12 +262,12 @@ local function get_groups()
     Normal = config.transparent_mode and { fg = colors.fg1, bg = nil } or { fg = colors.fg1, bg = colors.bg0 },
     NormalFloat = config.transparent_mode and { fg = colors.fg1, bg = nil } or { fg = colors.fg1, bg = colors.bg1 },
     FloatBorder = config.transparent_mode and { fg = colors.orange, bg = nil }
-      or { fg = colors.orange, bg = colors.bg1 },
+        or { fg = colors.orange, bg = colors.bg1 },
     NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = 'Normal' },
     CursorLine = { bg = colors.bg1 },
     CursorColumn = { link = 'CursorLine' },
     TabLineFill = { fg = colors.bg4, bg = colors.bg1, reverse = config.invert_tabline },
-    TabLineSel = { fg = colors.green, bg = colors.bg1, reverse = config.invert_tabline },
+    TabLineSel = { fg = colors.bg4, bg = colors.fg1, reverse = config.invert_tabline },
     TabLine = { link = 'TabLineFill' },
     MatchParen = { bg = colors.bg3, bold = config.bold },
     ColorColumn = { bg = colors.bg1 },
@@ -287,7 +287,7 @@ local function get_groups()
     WinBar = { fg = colors.fg4, bg = colors.bg0 },
     WinBarNC = { fg = colors.fg3, bg = colors.bg1 },
     WinSeparator = config.transparent_mode and { fg = colors.neutral_purple, bg = nil }
-      or { fg = colors.neutral_purple, bg = colors.bg0 },
+        or { fg = colors.neutral_purple, bg = colors.bg0 },
     WildMenu = { fg = colors.blue, bg = colors.bg2, bold = config.bold },
     Directory = { link = 'LFlopsBlueBold' },
     Title = { link = 'LFlopsGreenBold' },
@@ -300,7 +300,7 @@ local function get_groups()
     SignColumn = config.transparent_mode and { bg = nil } or { bg = colors.bg1 },
     Folded = { fg = colors.dark_blue, bg = colors.bg1, italic = config.italic.folds },
     FoldColumn = config.transparent_mode and { fg = colors.dark_blue, bg = nil }
-      or { fg = colors.dark_blue, bg = colors.bg1 },
+        or { fg = colors.dark_blue, bg = colors.bg1 },
     Cursor = { reverse = config.inverse },
     vCursor = { link = 'Cursor' },
     iCursor = { link = 'Cursor' },
