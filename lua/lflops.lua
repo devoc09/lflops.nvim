@@ -270,7 +270,7 @@ local function get_groups()
     TabLineSel = { fg = colors.bg0, bg = colors.fg1, reverse = config.invert_tabline },
     TabLine = { link = 'TabLineFill' },
     MatchParen = { bg = colors.bg3, bold = config.bold },
-    ColorColumn = { bg = colors.dark_blue },
+    ColorColumn = { bg = colors.bg2 },
     Conceal = { fg = colors.blue },
     CursorLineNr = { fg = colors.yellow, bg = colors.bg1 },
     NonText = { link = 'LFlopsBg2' },
