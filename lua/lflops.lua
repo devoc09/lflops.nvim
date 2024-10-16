@@ -68,7 +68,7 @@ LFlops.config = {
   transparent_mode = false,
 }
 
--- [0]  = "#373b41" /* black   */
+-- [0]  = "#242b3a" /* black   */
 -- [1]  = "#ff5682" /* red     */
 -- [2] = "#7fd06e" /* green   */
 -- [3] = "#ffd982" /* yellow  */
@@ -76,7 +76,7 @@ LFlops.config = {
 -- [5] = "#9b8fcb" /* magenta */
 -- [6] = "#f771be" /* cyan    */
 -- [7] = "#b8b8ba" /* white   */
--- [8] = "#282a2e" /* black   */
+-- [8] = "#373b41" /* black   */
 -- [9] = "#c24163" /* red     */
 -- [10] = "#6eb35f" /* green   */
 -- [11] = "#c3a664" /* yellow  */
@@ -84,19 +84,20 @@ LFlops.config = {
 -- [13] = "#9372af" /* magenta */
 -- [14] = "#ca5c9c" /* cyan    */
 -- [15] = "#485890" /* white   */
--- [256] = "#333333", /* background */
+-- [256] = "#0c172a", /* background */
 -- [257] = "#d2cdf4", /* foreground */
 
 -- main lflops color palette
 ---@class LFlopsPalette
 LFlops.palette = {
-  dark0_hard = '#333333',
-  dark0 = '#333333',
-  dark0_soft = '#32302f',
-  dark1 = '#333333',
-  dark2 = '#504945',
-  dark3 = '#665c54',
-  dark4 = '#7c6f64',
+  dark0_hard = '#0c172a',
+  dark0 = '#0c172a',
+  dark0_soft = '#0c172a',
+  -- dark1 = '#333333',
+  dark1 = '#0c172a',
+  dark2 = '#242b3a',
+  dark3 = '#3c4350',
+  dark4 = '#545a66',
   light0_hard = '#d2cdf4',
   light0 = '#d2cdf4',
   light0_soft = '#d2cdf4',
