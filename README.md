@@ -33,3 +33,14 @@ Inside `init.lua`
 ```lua
 vim.cmd('colorscheme lflops')
 ```
+
+If you using [`lualine`](https://github.com/nvim-lualine/lualine.nvim), you can alse enable the provided theme
+```lua
+require('lualine').setup {
+    options = {
+        -- ...
+        theme = 'lflops'
+        -- ...
+    }
+}
+```
