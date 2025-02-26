@@ -235,6 +235,8 @@ local function get_groups()
     LFlopsBlueBold = { fg = colors.blue, bold = config.bold },
     LFlopsPurple = { fg = colors.purple },
     LFlopsPurpleBold = { fg = colors.purple, bold = config.bold },
+    LFlopsDarkBlue = { fg = colors.dark_blue },
+    LFlopsDarkBlueBold = { fg = colors.dark_blue, bold = config.bold },
     LFlopsAqua = { fg = colors.aqua },
     LFlopsAquaBold = { fg = colors.aqua, bold = config.bold },
     LFlopsOrange = { fg = colors.orange },
@@ -283,8 +285,8 @@ local function get_groups()
     CurSearch = { link = 'IncSearch' },
     QuickFixLine = { link = 'LFlopsPurple' },
     Underlined = { fg = colors.blue, underline = config.underline },
-    StatusLine = { fg = colors.bg2, bg = colors.fg1, reverse = config.inverse },
-    StatusLineNC = { fg = colors.bg1, bg = colors.fg4, reverse = config.inverse },
+    StatusLine = { fg = colors.bg4, bg = colors.bg0, reverse = config.inverse },
+    StatusLineNC = { fg = colors.bg4, bg = colors.bg2, reverse = config.inverse },
     WinBar = { fg = colors.fg4, bg = colors.bg0 },
     WinBarNC = { fg = colors.fg3, bg = colors.bg1 },
     WinSeparator = config.transparent_mode and { fg = colors.neutral_purple, bg = nil }
@@ -297,7 +299,7 @@ local function get_groups()
     ModeMsg = { link = 'LFlopsYellowBold' },
     Question = { link = 'LFlopsOrangeBold' },
     WarningMsg = { link = 'LFlopsRedBold' },
-    LineNr = { fg = colors.neutral_purple },
+    LineNr = { link = 'LFlopsDarkBlue' },
     SignColumn = config.transparent_mode and { bg = nil } or { bg = colors.bg1 },
     Folded = { fg = colors.dark_blue, bg = colors.bg1, italic = config.italic.folds },
     FoldColumn = config.transparent_mode and { fg = colors.dark_blue, bg = nil }
